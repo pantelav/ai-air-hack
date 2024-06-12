@@ -14,10 +14,10 @@ npm install
 npm run dev
 ```
 
-### Собра production
+### Сборка
 
 ```bash
-quasar build
+npm run build #output ./dist/spa/
 ```
 
 ## Docker
