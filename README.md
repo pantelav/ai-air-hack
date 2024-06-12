@@ -19,3 +19,19 @@ npm run dev
 ```bash
 quasar build
 ```
+
+## Docker
+
+Сборка образа
+
+```bash
+docker build -t <image_name> -f Dockerfile .
+```
+
+Запуск контейнера на порут 80
+
+```bash
+docker run --rm -p 80:80 <image_name>
+```
+
+Перейти на [http://localhost:80](http://localhost:80)
