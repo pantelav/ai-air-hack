@@ -23,10 +23,8 @@
 </template>
 
 <script setup lang="ts">
-import ContentCard from 'components/app/ContentCard.vue'
 import EventsCard from 'components/events/EventsCard.vue';
 import ChartCard from 'components/charts/ChartCard.vue';
-import VideoPlayer from 'components/app/VideoPlayer.vue';
 import ObjectCard from 'components/app/ObjectCard.vue';
 import { PropsType } from 'src/types/props';
 

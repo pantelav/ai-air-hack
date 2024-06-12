@@ -1,41 +1,21 @@
 # Автономные технологии (airport-hackaton)
 
-Front-end решение в рамках хакатона Автономные технологии - Нейросеть для мониторинга воздушного пространства вокруг аэропортов 2024
+Front-end решение команды DoberTeam в рамках хакатона Автономные технологии - Нейросеть для мониторинга воздушного пространства вокруг аэропортов 2024
 
-## Install the dependencies
+## Установка зависимостей
+
 ```bash
-yarn
-# or
 npm install
 ```
 
-### Start the app in development mode (hot-code reloading, error reporting, etc.)
+### Запуск в режиме разработке
+
 ```bash
-quasar dev
+npm run dev
 ```
 
+### Собра production
 
-### Lint the files
-```bash
-yarn lint
-# or
-npm run lint
-```
-
-
-### Format the files
-```bash
-yarn format
-# or
-npm run format
-```
-
-
-
-### Build the app for production
 ```bash
 quasar build
 ```
-
-### Customize the configuration
-See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
