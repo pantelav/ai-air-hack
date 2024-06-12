@@ -1,5 +1,5 @@
 <template>
-  <q-header elevated>
+  <q-header elevated class="px-3">
     <div class="h-14 container mx-auto flex justify-between items-center">
       <RouterLink to="/">
         <img src="/logo.png" alt="logo" class="h-10 my-2">
@@ -19,8 +19,10 @@ import HeaderItem from 'src/components/header/HeaderItem.vue'
 import type { PropsType } from 'src/types/props';
 const navLinks: PropsType<typeof HeaderItem>[] = [
   { title: 'Главная', icon: 'mdi-home-outline', to: '/' },
-  { title: 'Объекты', icon: 'mdi-airplane', to: '/' },
-  { title: 'Камеры', icon: 'mdi-cctv', to: '/' },
+  // { title: 'Объекты', icon: 'mdi-airplane', to: '/' },
+  // { title: 'Камеры', icon: 'mdi-cctv', to: '/' },
+  { title: 'Демо', icon: 'mdi-alpha-d-circle-outline', to: '/demo' },
+  { title: 'DoberTeam', icon: 'mdi-laptop', to: '/team' },
 ]
 </script>
 

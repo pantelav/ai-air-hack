@@ -1,7 +1,7 @@
 <template>
   <q-layout view="lHh Lpr lFf">
     <TheHeader />
-    <q-page-container>
+    <q-page-container class="container mx-auto my-6">
       <router-view />
     </q-page-container>
   </q-layout>

@@ -6,6 +6,38 @@
 
 html,
 body {
+  padding: 0 12px;
+  background: #f9f9f9;
   font-family: "Montserrat", sans-serif;
   font-style: normal;
+}
+
+section {
+  margin-bottom: 24px;
+}
+
+* {
+  --sb-track-color: #ffffff;
+  --sb-thumb-color: #1976d2;
+  --sb-size: 8px;
+}
+
+*::-webkit-scrollbar {
+  width: var(--sb-size);
+}
+
+*::-webkit-scrollbar-track {
+  background: var(--sb-track-color);
+  border-radius: 6px;
+}
+
+*::-webkit-scrollbar-thumb {
+  background: var(--sb-thumb-color);
+  border-radius: 6px;
+}
+
+@supports not selector(::-webkit-scrollbar) {
+  * {
+    scrollbar-color: var(--sb-thumb-color) var(--sb-track-color);
+  }
 }
